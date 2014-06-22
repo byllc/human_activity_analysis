@@ -44,5 +44,5 @@ These variables are defined there and in the features_info.txt provided with the
 
 ### Transformations
 
-Training and Test data sets were  merged columnwise and  than the measurements were extracted for mean, standard deviation for each measurement. The headers/Variables were labeled with descriptive names and results were output as an indepenent tidy data set in the ./out directory
+Training and Test data sets were  merged columnwise and the measurements were extracted for mean, standard deviation for each measurement. The headers/Variables were labeled with descriptive names and results were output as an indepenent tidy data set in the ./out directory
 
