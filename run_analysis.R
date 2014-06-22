@@ -52,7 +52,7 @@ fullDataTable <- rbind(testTable, trainTable)
 features <- read.table(file=paste(uciHarDataPath,"features.txt",sep="/"),header=FALSE)
 
 #source the activities labels
-activities <- read.table(file=paste(uciHardDataPath,"activity_labels.txt", sep="/", header=FALSE) )
+activities <- read.table(file=paste(uciHarDataPath,"activity_labels.txt", sep="/"),header=FALSE)
 
 #label the full data table appropriately
 names(fullDataTable)[1:2]   <- c("Subject ID", "Class")
@@ -63,7 +63,7 @@ columnsForSummary <- grep("mean|std|Class|Subject", names(fullDataTable))
 dataForSummary    <- fullDataTable[,columnsForSummary]
 
 ##Merge in the activity names
-names(activityNames) <- c("Class", "Class_Name")
+names(activities) <- c("Class", "Activity Name")
 dataForFile <- merge(x=dataForSummary, y=activities, by.x="Class", by.y="Class" )
 
 #Now we have a single tidy data set,  lets write this out to a file.
