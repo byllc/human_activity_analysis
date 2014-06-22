@@ -1,7 +1,5 @@
 # Human Activity Analysis Dataset
 
-NOTE: Much content from here was taken from the sources at [1] and [2]
-
 ## Experiment & Data Set
 
 The source data set was collected from the accelerometers of Samsung Galaxy S smartphones during a range of experiments.
