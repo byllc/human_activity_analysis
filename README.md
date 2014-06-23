@@ -1,6 +1,8 @@
 ## Run Simple analysis of Human Activity Recognition Using Smartphones Dataset
 
-The data is currently found [here]("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip") and this url is hard coded in to the run_analysis script.
+The data is currently found here:
+  https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+ this url is hard coded in to the run_analysis script.
 
 ### Usage
 All of the code is currently contained in the run_analysis.R file. When you run the file it will do the following:
