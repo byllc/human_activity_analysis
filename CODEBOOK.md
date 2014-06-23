@@ -35,6 +35,7 @@ NOTE: We do not use the Inertial Signals for this tidy data set.
 For each measurement the mean, stddev, and mean frequency were calculated and we provided these in final output file
 
 SubjectID: The subject in the experiement
+
 Activity Name: The activty labels provided by the experimentors (WALKING WALKING_UPSTAIRS WALKING_DOWNSTAIRS SITTING STANDING LAYING )
 
 The Rest of the document is defined as follows and is in accordance with the reference provided at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
